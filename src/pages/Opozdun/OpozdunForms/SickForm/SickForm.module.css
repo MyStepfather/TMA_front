@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.questions {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.textarea {
+    height: 78px;
+}
+.answers {
+    display: flex;
+    flex-direction: row;
+    gap: 8px
+}
+.tab {
+    width: 100%;
+    flex-shrink: 1;
+}
+.submit:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}

@@ -1,0 +1,17 @@
+.input {
+    width: 100%;
+    background-color: var(--gray);
+    height: 50px;
+    padding: 16px 14px 18px 14px;
+    color: var(--white-color);
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid var(--gray);
+}
+.input:focus-visible {
+    outline: none;
+    border: none;
+}
+.invalid {
+    border: 2px solid var(--invalid-color);
+}

@@ -1,0 +1,14 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.calendar {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.submit:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}

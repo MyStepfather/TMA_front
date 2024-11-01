@@ -1,0 +1,26 @@
+.cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    width: 100%;
+    position: absolute;
+    bottom: -2px;
+    background-color: rgba(42, 42, 42, 0.8);
+    backdrop-filter: blur(4px);
+    height: 85px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.downloadIcon {
+    width: 40px;
+}
+.type {
+    padding: 7px 30px;
+}

@@ -1,0 +1,30 @@
+.body {
+    background-color: #202020;
+    border-radius: 13px;
+}
+.header {
+    background-color: #202020;
+    border-radius: 13px 13px 0 0;
+}
+.textSelect select {
+    color: #fff;
+}
+.dayNumber span {
+    color: #fff;
+    font-size: 20px;
+}
+.month {
+    width: 100%;
+}
+.weekDay {
+    color: #5D5D60;
+    text-transform: uppercase;
+}
+.dayToday span::after {
+    bottom: 0 !important;
+    width: 22px !important;
+    background-color: #fff !important;
+}
+.startEdge, .endEdge, .inRange {
+    background-color: var(--primary-color);
+}

@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    position: relative;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.datePicker {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+.itemsList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

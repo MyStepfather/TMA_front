@@ -1,0 +1,26 @@
+.item {
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(180deg, rgba(239,97,71,1) 0%, rgba(228,79,52,1) 110%);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.icon {
+    height: 100%;
+    position: absolute;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    z-index: 2;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+}

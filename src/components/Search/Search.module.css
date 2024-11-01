@@ -1,0 +1,22 @@
+.search {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 33%;
+    left: 13px;
+}
+.input {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: none;
+    padding-left: 33px;
+    padding-right: 15px;
+    font-size: 17px;
+    color: #3C3C43;
+}

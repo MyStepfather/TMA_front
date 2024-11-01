@@ -1,0 +1,14 @@
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.answers {
+    display: flex;
+    flex-direction: row;
+    gap: 8px
+}
+.tab {
+    width: 100%;
+    flex-shrink: 1;
+}

@@ -1,0 +1,16 @@
+.expander {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+}
+.arrow {
+    transform: rotate(270deg);
+    transition: all .3s;
+}
+.open {
+    transform: rotate(90deg);
+}

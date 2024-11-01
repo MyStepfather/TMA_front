@@ -1,0 +1,40 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.gallery {
+    width: 100%;
+    background-color: var(--gray);
+    border-radius: 20px;
+    position: relative;
+}
+.downloader {
+    position: absolute;
+    z-index: 10;
+    top: 17px;
+    right: 20px;
+}
+.categoriesList {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 0 16px;
+
+}
+.categoriesList::-webkit-scrollbar {
+    display: none;
+}
+.slide {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}

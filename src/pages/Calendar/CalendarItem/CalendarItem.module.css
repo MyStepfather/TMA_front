@@ -1,0 +1,48 @@
+.item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.label {
+    font-weight: 500;
+    font-size: 16px;
+    color: #f8f9fa;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 14px;
+    background-color: var(--gray);
+    border-radius: 20px;
+}
+.title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.icon {
+    fill: white;
+    display: none;
+}
+.birthday {
+    .label {
+        color: var(--primary-color);
+    }
+    .title {
+        padding: 6px 0 6px 14px;
+        border-left: 1px solid var(--primary-color);
+    }
+    .icon {
+        display: block;
+    }
+}
+.at_home_page {
+    .icon {
+        display: block;
+        fill: var(--white-color);
+        color: var(--white-color);
+    }
+}

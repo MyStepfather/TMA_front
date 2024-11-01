@@ -1,0 +1,22 @@
+.button {
+    width: 100%;
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    transition: background-color .2s;
+    border: none;
+}
+.button:hover {
+    background-color: var(--primary-hover-color);
+}
+.ghost {
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    padding: 20px 0;
+}

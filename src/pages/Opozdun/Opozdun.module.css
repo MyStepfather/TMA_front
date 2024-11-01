@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tabsList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+.tab {
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 19px;
+}

@@ -1,0 +1,46 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.searchWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.filterIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.categoriesList {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 0 16px;
+
+}
+.categoriesList::-webkit-scrollbar {
+    display: none;
+}
+.presentationsList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.typeIcon img {
+    position: relative;
+    right: 1px;
+}
+.active {
+    border: 3px solid var(--primary-color);
+}

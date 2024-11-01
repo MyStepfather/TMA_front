@@ -1,0 +1,44 @@
+.tab {
+    width: max-content;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.category {
+  background-color: var(--gray);
+  color: white;
+  padding: 14px 12px;
+}
+.active {
+  background-color: var(--primary-color);
+}
+.label {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 9px 12px;
+}
+.ghost {
+  border-radius: 15px;
+  border: 1px solid var(--white-color);
+  text-align: center;
+  color: var(--white-color);
+  font-size: 9px;
+}
+.presentationOdd,
+.presentationEven {
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 6px 13px;
+  font-size: 10px;
+}
+.presentationOdd {
+    color: var(--white-color);
+    background-color: #1A1A1A;
+}
+.presentationEven {
+    color: var(--black-color);
+    background-color: var(--white-color);
+}

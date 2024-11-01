@@ -1,0 +1,38 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: var(--gray);
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 29px 20px 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin: auto 0;
+}
+.toggler {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.body {
+    overflow: hidden;
+    max-height: 0;
+    padding: 0 20px 0;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+.open {
+    overflow: hidden;
+    max-height: 1000px;
+    padding: 0 20px 40px;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+
+}

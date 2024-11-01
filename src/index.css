@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --font: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --max-width: 490px;
+  --primary-color: #EF6147;
+  --primary-hover-color: #BF6147;
+  --text-color: #FFFFFF;
+  --text-secondary-color: #E2E2E2;
+  --white-color: #FFFFFF;
+  --gray: #1A1A1A;
+  --black-color: #000000;
+  --invalid-color: #663399;
+
+  --success-color: #2E7D32;
+  --error-color: #D32F2F;
+
+  --swiper-pagination-color: var(--primary-color);
+}
+
+.swiper-pagination {
+  bottom: 40px !important;
+}
+
+.react-pdf__Page__canvas {
+  max-width: 368px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  /*width: 100vw;*/
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 0px; /* Убирает полосу прокрутки */
+}
+
+/* Для Firefox */
+body {
+  scrollbar-width: none; /* Убирает полосу прокрутки */
+}
+
+/* Для Internet Explorer и Edge (версии до 18) */
+body {
+  -ms-overflow-style: none; /* Убирает полосу прокрутки */
+}

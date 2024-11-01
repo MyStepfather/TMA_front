@@ -1,0 +1,7 @@
+.documentWrapper {
+    position: relative;
+}
+.document {
+    border-radius: 20px;
+    overflow: hidden;
+}

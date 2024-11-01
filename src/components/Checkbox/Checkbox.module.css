@@ -1,0 +1,25 @@
+.checkbox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.box {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    position: relative;
+}
+.checkbox input {
+    display: none;
+}
+.check {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.hide {
+    display: none;
+}

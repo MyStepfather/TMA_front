@@ -1,0 +1,11 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.itemsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 7px;
+    column-gap: 10px;
+}
